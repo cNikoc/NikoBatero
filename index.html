@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeOD</title>
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cnikoc.github.io/NikoLucero/">
+    <meta property="og:title" content="LeOD">
+    <meta property="og:description" content="Hola! Soy Nicolás y quiero ser el nuevo baterista de Luceros el Ojo Daltónico">
+    <meta property="og:image" content="https://cnikoc.github.io/NikoLucero/imagenes/galeria/16.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://cnikoc.github.io/NikoLucero/">
+    <meta property="twitter:title" content="LeOD">
+    <meta property="twitter:description" content="Hola! Soy Nicolás y quiero ser el nuevo baterista de Luceros el Ojo Daltónico">
+    <meta property="twitter:image" content="https://cnikoc.github.io/NikoLucero/imagenes/galeria/16.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="imagenes/logo.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <!-- <a class="navbar-brand" href="#" onclick="showView('home')">
+                <h4>Nico&nbsp;/&nbsp;</h4>
+                <img src="imagenes/logoTexto.png" alt="Luceros el Ojo Daltónico" class="navbar-logo">
+            </a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showView('home')">-Inicio.</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showView('about')">-Quién soy?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showView('contact')">-Contacto.</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Vista Home -->
+    <div id="home-view" class="view">
+        <div class="container mt-1 pt-4">
+            <!-- Hero Section -->
+            <section class="hero-section text-center py-5 mb-5">
+               <!--  <h1 class="display-4 fw-bold mb-3">Hola!</h1> -->
+                <h4 style="color: #d8d4d4 !important;" class="text-muted">Hola! Soy Nicolás y me encantaría ser el baterísta de Luceros&nbsp;el&nbsp;Ojo&nbsp;Daltónico...</h4>
+            </section>
+
+            <!-- Videos Section -->
+            <section class="videos-section">
+                <h2 class="mb-4 text-center"></h2>
+                <div class="row g-4" id="videos-container">
+                    <!-- Los videos se cargarán dinámicamente desde JavaScript -->
+                </div>
+                <h4 class="mt-5 text-center">Estoy preparando más videos...</h4>
+            </section>
+        </div>
+    </div>
+
+    <!-- Vista Quién soy? -->
+    <div id="about-view" class="view d-none">
+        <div class="container mt-5 pt-4">
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-10">
+                    <div class="card shadow night-mode" id="about-card">
+                        <div class="card-body p-5">
+                            <div class="d-flex justify-content-between align-items-center mb-4">
+                                <h2 class="card-title mb-0">Quién soy?</h2>
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" id="theme-toggle" onchange="toggleAboutCardTheme()">
+                                    <label class="form-check-label" for="theme-toggle">
+                                        <span id="theme-label">🌙</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <p class="card-text">
+                                Mi nombre es Nicolás, tengo 31 años, soy baterista desde chico y soy fanático de Luceros, lo llevo tatuado con mi viejo. Es una banda que me llega al alma, me atraviesa y me identifica de un monton de maneras.
+<br><br>
+Cuando me enteré lo del Ruso, me comuniqué con ustedes para expresarles mi interés en sumarme a la banda. Entiendo que todavía no estén en búsqueda porque es algo reciente, pero sentí que tenía que adelantarme a la jugada, mostrar interés y esperar mi oportunidad.
+<br><br>
+Tengo experiencia, estoy equipado primer nivel y siempre me manejé con criterio, responsabilidad y profesionalismo sin importar el contexto, siempre dando lo mejor de mi. Me encanta la música y la batería, entiendo y disfruto mi rol: Tocar para el tema, aportar solidez y sostener a la banda desde mi lugar. Me sé aprox. el 70% de los temas del repertorio, con y sin click.
+<br><br>
+Tengo movilidad, tiempo y MUCHAS ganas. Soy un tipo sano, sencillo, tranqui; todos los dias trato de ser un buen amigo, un buen hijo, un buen hermano y un buen batero.
+<br><br>
+Nunca pretendo ser soberbio, por favor no me tomen asi, mi intención es mostrar lo que tengo para ofrecerle a la banda. Lo que les cuento y muestro es 100% real.
+<br><br>
+Sinceamente, pienso que puedo ser el baterista ideal para este momento de la banda. Lo único que les pido es que me escuchen antes de tomar una decisión. Que me digan “Nico, venite a la sala”, voy, tocamos unos temas y vemos qué pasa. Lo que necesito es la oportunidad, -que el mundo muestre su naipe más alto para mi as bajo la manga ♠️ 
+<br><br>
+Abrazo y gracias por llegar hasta acá!
+                            </p>
+                            <p class="card-text">
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="mt-5 mb-4 text-center">Equipamiento</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow-sm h-100 equipment-card">
+                        <img src="imagenes/recursos/bata.jpg" class="card-img" alt="Equipo 1">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow-sm h-100 equipment-card">
+                        <img src="imagenes/recursos/platos.jpg" class="card-img" alt="Equipo 2">
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow-sm h-100 equipment-card">
+                        <img src="imagenes/recursos/tacho.jpg" class="card-img" alt="Equipo 3">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sección Disponibilidad  -->
+            <h2 class="mt-5 mb-4 text-center">Disponibilidad</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow-sm h-100">
+                        <img src="imagenes/recursos/notebook.jpg" class="card-img-top" alt="Trabajo a remoto">
+                        <div class="card-body">
+                            <h5 class="card-title">100% para la banda</h5>
+                            <p class="card-text">No tengo compromisos personales ni laborales estrictos. Soy programador (dato de color, yo programé ésta página), laburo a remoto con mi notebook en horarios flex.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow-sm h-100">
+                        <img src="imagenes/recursos/fiori.jpg" class="card-img-top" alt="Transporte propio">
+                        <div class="card-body">
+                            <h5 class="card-title">Transporte propio</h5>
+                            <p class="card-text">&nbsp;</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card shadow-sm h-100">
+                        <img src="imagenes/recursos/pasaporte.jpg" class="card-img-top" alt="Pasaporte al día">
+                        <div class="card-body">
+                            <h5 class="card-title">Pasaporte al día</h5>
+                            <p class="card-text">&nbsp;</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sección Fotos  -->
+            <h2 class="mt-5 mb-4 text-end">Este viaje empieza para atrás…</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item gallery-item-large">
+                    <img src="imagenes/galeria/1.jpg" alt="Foto 1" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="imagenes/galeria/1+.jpg" alt="Foto 1+" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="imagenes/galeria/2.jpg" alt="Foto 2" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="imagenes/galeria/3.jpg" alt="Foto 3" class="gallery-img">
+                </div>
+                <div class="gallery-item gallery-item-large">
+                    <img src="imagenes/galeria/3+.jpg" alt="Foto 3+" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="imagenes/galeria/4+.jpg" alt="Foto 4+" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="imagenes/galeria/5.jpg" alt="Foto 5" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="imagenes/galeria/6.jpg" alt="Foto 6" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="imagenes/galeria/7.jpg" alt="Foto 7" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="imagenes/galeria/8.jpg" alt="Foto 8" class="gallery-img">
+                </div>
+                <div class="gallery-item gallery-item-large">
+                    <img src="imagenes/galeria/8+.jpg" alt="Foto 8+" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="imagenes/galeria/9.jpg" alt="Foto 9" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="imagenes/galeria/10+.jpg" alt="Foto 10+" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="imagenes/galeria/11.jpg" alt="Foto 11" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="imagenes/galeria/12.jpg" alt="Foto 12" class="gallery-img">
+                </div>
+                <div class="gallery-item gallery-item-large">
+                    <img src="imagenes/galeria/13.jpg" alt="Foto 13" class="gallery-img">
+                </div>
+                <div class="gallery-item">
+                    <img src="imagenes/galeria/14.jpg" alt="Foto 14" class="gallery-img">
+                </div>
+                <div class="gallery-item gallery-item-large" style="position: relative;">
+                    <img src="imagenes/galeria/16.jpg" alt="Foto 16" class="gallery-img">
+                    <span class="hoy-text" style="position: absolute; bottom: 0; left: 100%; margin-left: 15px !important; font-size: 2.5rem; font-weight: 600; color: #111; white-space: nowrap;">Hoy.</span>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <div class="manana-text" style="text-align: center; margin-top: 150px; font-size: 2.5rem; font-weight: 600; color: #222;">Mañana...?</div>
+        </div>
+    </div>
+
+    <!-- Vista Contacto -->
+    <div id="contact-view" class="view d-none">
+        <div class="container mt-5 pt-4">
+            <section class="hero-section text-center py-5 mb-5">
+                <h1 class="display-4 fw-bold mb-4">Contacto</h1>
+                <div class="contact-item mb-3">
+                    <span class="lead"><strong>Celular:</strong> <span class="text-white">+54 9 11 2388-8374</span></span>
+                    <button class="btn-copy" onclick="copyToClipboard('+54 9 11 2388-8374', this)" title="Copiar">
+                        <i class="bi bi-copy"></i>
+                    </button>
+                </div>
+                <div class="contact-item mb-3">
+                    <span class="lead"><strong>Email:</strong> <span class="text-white">cncastagnetto@hotmail.com</span></span>
+                    <button class="btn-copy" onclick="copyToClipboard('cncastagnetto@hotmail.com', this)" title="Copiar">
+                        <i class="bi bi-copy"></i>
+                    </button>
+                </div>
+                <div class="contact-item mb-0">
+                    <span class="lead"><strong>Instagram:</strong> <a href="https://instagram.com/c.nko.c" target="_blank" class="text-white text-decoration-none">@c.nko.c <i class="bi bi-arrow-up-right"></i></a></span>
+                    <button class="btn-copy" onclick="copyToClipboard('@c.nko.c', this)" title="Copiar">
+                        <i class="bi bi-copy"></i>
+                    </button>
+                </div>
+                <br>
+            </section>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
