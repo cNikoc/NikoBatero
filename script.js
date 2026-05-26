@@ -1,32 +1,38 @@
 // Datos de los videos (puedes agregar más videos aquí)
 const videos = [
     {
+        id: 'mr9UKAPMuYg', // Reemplaza con IDs reales de YouTube
+        title: 'Rosamonte - Todo lo que pasó - Cover de batería',
+        description: '',
+        thumbnail: 'https://img.youtube.com/vi/mr9UKAPMuYg/maxresdefault.jpg'
+    },
+    {
         id: 'T8trLxET1oc', // Reemplaza con IDs reales de YouTube
-        title: 'Año 13',
+        title: 'Luceros el Ojo Daltónico - Año 13 - Cover de batería',
         description: '',
         thumbnail: 'https://img.youtube.com/vi/T8trLxET1oc/maxresdefault.jpg'
     },
     {
         id: 'bnzdSKwx2nY', // Reemplaza con IDs reales de YouTube
-        title: 'Chau Sofía',
+        title: 'Luceros el Ojo Daltónico - Chau Sofia - Cover de batería',
         description: '',
         thumbnail: 'https://img.youtube.com/vi/bnzdSKwx2nY/maxresdefault.jpg'
     },
-    {
+    /* {
         id: 'eA92H01F1QU', // Reemplaza con IDs reales de YouTube
         title: 'Nigromante',
         description: '',
         thumbnail: 'https://img.youtube.com/vi/eA92H01F1QU/maxresdefault.jpg'
-    },
+    }, */
     {
         id: 'XDzGqMJdvh8', // Reemplaza con IDs reales de YouTube
-        title: 'El Espíritu Capicúa',
+        title: 'Luceros el Ojo Daltónico - El Espíritu Capicúa - Cover de batería',
         description: '',
         thumbnail: 'https://img.youtube.com/vi/XDzGqMJdvh8/maxresdefault.jpg'
     },
     {
         id: '8kD3mwJkiKg', // Reemplaza con IDs reales de YouTube
-        title: 'Alunizando',
+        title: 'Luceros el Ojo Daltónico - Alunizando - Cover de batería',
         description: '',
         thumbnail: 'https://img.youtube.com/vi/8kD3mwJkiKg/maxresdefault.jpg'
     }
